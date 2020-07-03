@@ -184,7 +184,7 @@ ENABLE_SCHEDBOOST := true
 #personal preference flags
 
 # Custom TWRP Version
-TW_DEVICE_VERSION :=1-Mi9SE by redispade
+TW_DEVICE_VERSION :=1-Mi9SE
 
 # supress error messages while building
 ALLOW_MISSING_DEPENDENCIES := true
