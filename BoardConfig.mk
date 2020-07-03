@@ -195,3 +195,19 @@ TW_INCLUDE_RESETPROP := true
 #Copy some props from installed system
 TW_OVERRIDE_SYSTEM_PROPS := "ro.build.product;ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.sdk;ro.build.version.security_patch;ro.build.version.release"
 
+# SHRP Flags
+SHRP_MAINTAINER := ljmf00
+SHRP_DEVICE_CODE := grus
+SHRP_REC := /dev/block/sda26
+SHRP_PATH := device/xiaomi/grus
+SHRP_EDL_MODE := 0
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_REC_TYPE := Treble
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_DEVICE_TYPE := A_Only
+SHRP_STATUSBAR_RIGHT_PADDING := 40
+SHRP_STATUSBAR_LEFT_PADDING := 40
+SHRP_EXPRESS := true
+SHRP_OFFICIAL := true
