@@ -1,19 +1,13 @@
-# android_device_xiaomi_grus
+# TWRP/SHRP Device Tree for Xiaomi Mi 9 SE
 
-Android 10 (and 9-compatible) TWRP Device tree for Xiaomi Mi9SE(grus)
+Android 10 (and 9 compatible) TWRP/SHRP Device tree for Xiaomi Mi9SE(grus)
 
-To compile:
+## How to compile
 
-```
+```bash
 . build/envsetup.sh
-
 breakfast grus eng
-
 mka adbd recoveryimage
-
 ```
 
-Kernel source: Kowalski Kernel fork, modded for twrp:
-https://github.com/redispade/kowalski-grus
-Original kernel:
-https://github.com/pengus77/kowalski-grus
+Kernel source: https://github.com/ljmf00/android_kernel_xiaomi_grus
